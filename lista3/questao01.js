@@ -3,7 +3,8 @@ function sexo(array)
     const total=array.length;
     let masculino=0;
     let feminino=0;
-    array.forEach(aluno => {
+    array.forEach(aluno => 
+    {
         if(aluno.sexo==="Masculino")
         {
             masculino++;

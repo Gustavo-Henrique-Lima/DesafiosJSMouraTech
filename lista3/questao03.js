@@ -4,5 +4,6 @@ function email(array)
     array.forEach(aluno => {
         texto+=aluno.email+";";
     });
-    return texto;
+    const textoFiltrado=texto.substring(0,texto.length-1);
+    return textoFiltrado;
 }
